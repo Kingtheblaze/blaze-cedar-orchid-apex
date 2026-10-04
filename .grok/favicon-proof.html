@@ -1,0 +1,16 @@
+<!doctype html><html><body style="margin:0;background:#666">
+<canvas id="c16" width="16" height="16"></canvas>
+<canvas id="c32" width="32" height="32"></canvas>
+<img id="s" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGNsaXBQYXRoIGlkPSJ0aWxlIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI2Ii8+PC9jbGlwUGF0aD4KICA8ZyBjbGlwLXBhdGg9InVybCgjdGlsZSkiPgogICAgPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjRjNFRkU2Ii8+CiAgICA8cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iOCIgZmlsbD0iIzBDNkU1QSIvPgogICAgPHJlY3QgeD0iNSIgeT0iMTMiIHdpZHRoPSIyMiIgaGVpZ2h0PSIxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTQxMjEwIiBzdHJva2Utd2lkdGg9IjIuNSIvPgogICAgPHJlY3QgeD0iMTkuMjUiIHk9IjEzIiB3aWR0aD0iMi41IiBoZWlnaHQ9IjE0IiBmaWxsPSIjMTQxMjEwIi8+CiAgPC9nPgo8L3N2Zz4K" />
+<script>
+const img = document.getElementById('s');
+img.onload = () => {
+  for (const [id, size] of [['c16',16],['c32',32]]) {
+    const c = document.getElementById(id);
+    const ctx = c.getContext('2d');
+    ctx.drawImage(img, 0, 0, size, size);
+  }
+  document.body.dataset.ready = '1';
+};
+</script>
+</body></html>

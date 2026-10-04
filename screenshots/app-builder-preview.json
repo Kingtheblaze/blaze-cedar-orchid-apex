@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "SHIP60 — NxtWave Growth Intern",
+      "hasCanvas": false,
+      "bodyTextLen": 2869,
+      "bodyTextHash": "07422888ded0b95495fc0527099bd4cc8c8fa3319295fb7364df225adf09668f",
+      "bodyTextPrefix": "SHIP60 NXTWAVE Workshop Captain kit Campaign HQ Growth plan AI w",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "SHIP60 — NxtWave Growth Intern",
+      "hasCanvas": false,
+      "bodyTextLen": 2846,
+      "bodyTextHash": "6321defde485d5ac880e924e1395ea0defe04878dd6af1fe0c5c00aae977dbf6",
+      "bodyTextPrefix": "SHIP60 Workshop Captain kit Campaign HQ Growth plan AI worklog V",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
